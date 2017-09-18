@@ -2,6 +2,8 @@
 {-# OPTIONS -Wall -fwarn-tabs -fno-warn-type-defaults -fno-warn-unused-do-bind #-}
 -- The package juicypixels needs to have been installed.
 -- try cabal install juicypixels
+-- https://hackage.haskell.org/package/JuicyPixels-3.2.8.3
+
 import Data.Complex
 import Codec.Picture
 
