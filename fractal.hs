@@ -2,7 +2,7 @@
 {-# OPTIONS -Wall -fwarn-tabs -fno-warn-type-defaults -fno-warn-unused-do-bind #-}
 -- The package juicypixels needs to have been installed.
 import Data.Complex
-import Codec.Picture
+--import Codec.Picture
 
 type C = Complex Double
 type Pnt = (Double, Double)
