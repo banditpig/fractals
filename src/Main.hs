@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# OPTIONS -Wall -fwarn-tabs -fno-warn-type-defaults -fno-warn-unused-do-bind #-}
 -- The package juicypixels needs to have been installed.
+-- try cabal install juicypixels
 import Data.Complex
 import Codec.Picture
 
