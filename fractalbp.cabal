@@ -16,7 +16,7 @@ version:             0.1.0.0
 synopsis:            fractal graphics demo
 
 -- A longer description of the package.
--- description:         
+description:         a forked package that creates beautiful fractals and installs the required packages automatically.      
 
 -- The license under which the package is released.
 license:             BSD3
