@@ -63,7 +63,7 @@ mapOverGrid grd fz colors = [ [chooseColor colors  fz  (x :+ y) | (x,y) <- row] 
 
 -- used by juicy pixels to get a pixel value at x, y
 gridFunc ::Grid Pnt ->  (C -> [C]) -> Int -> Int -> PixelRGB8
-gridFunc grd fz  x y = ((mapOverGrid grd fz rgb8) !! y) !! x
+gridFunc grd fz  x y = (mapOverGrid grd fz rgb8 !! y) !! x
 
 generateImg :: (Int -> Int -> PixelRGB8) -> DynamicImage
 generateImg gf = ImageRGB8 (generateImage gf w h)
@@ -83,5 +83,6 @@ allJulia =
 main :: IO ()
 main = do
     allJulia
+    print "starting -> pleae wait..."
     savePngImage "imageM.png" $ generateImg . gridFunc grid1 $ mandel
     print "Done."
