@@ -82,7 +82,7 @@ allJulia =
 
 main :: IO ()
 main = do
+    putStrLn "starting -> please wait..."
     allJulia
-    print "starting -> pleae wait..."
     savePngImage "imageM.png" $ generateImg . gridFunc grid1 $ mandel
-    print "Done."
+    putStrLn "Done."
