@@ -1,0 +1,8 @@
+Mon 18 Sep 2017 20:41:02 AEST 
+try :
+./BinariesVersionCheck.sh
+
+cabal install juicypixels
+
+I used geany 1.31 to compile : ghc --make "%f"  -v
+
